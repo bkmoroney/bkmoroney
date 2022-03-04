@@ -1,0 +1,87 @@
+body{
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  padding-top: 2%;
+}
+
+h1{
+  font-family: "Nunito";
+}
+
+p{
+  font-family: "Nunito";
+  font-weight: 300;
+  padding: 0 30% 0 30%;
+}
+
+.work{
+  padding: 0 20% 0 20%;
+  margin-bottom: 120px;
+}
+
+.img-content{
+  width: 50%;
+}
+
+.thumbnails{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/*change aspect ratio*/
+
+.work img{
+  width: 350px;
+  max-width: 100%;
+  height:auto;
+}
+
+.work-subheader{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+
+.navbar {
+  flex-direction: column;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.work-row{
+  padding-top: 100px;
+}
+
+#navbrandimg{
+  width: 250px;
+  padding: 30px;
+}
+
+/* About */
+
+.dogs{
+  width: 200px;
+}
+
+.dogRow{
+  margin: 100px 0 70px 0;
+}
+
+.about{
+  margin-top: 30px;
+}
+
+.contact-block{
+  margin: 100px 0 10% 0;
+  color: gray;
+}
+
+.contact-block h3{
+  font-size: 3em;
+  opacity: .4;
+}
